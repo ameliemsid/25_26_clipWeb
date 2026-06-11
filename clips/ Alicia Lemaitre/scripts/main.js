@@ -38,116 +38,116 @@ let Fin;
 
 function setup(){
 	createCanvas(windowWidth, windowHeight);
-	sequencer = new Sequencer(audioPath, BPM);
+	sequencer = new Sequencer(audioPath, BPM, false);
 
-	TSVide=new Animator(1,12, "./assets/images/TSVide/TS-_imgNum_.jpg")
+	TSVide=new Animator(1,12, "./assets/Images/TSVide/TS-_imgNum_.jpg")
 	TSVide.setSize(width, height);
 	TSVide.setPosition(0,0);
 
-	TS=new Animator(1,12, "./assets/images/TS/TS-_imgNum_.jpg")
+	TS=new Animator(1,12, "./assets/Images/TS/TS-_imgNum_.jpg")
 	TS.setSize(width, height);
 	TS.setPosition(0,0);
 
-	BS=new Animator(1,16, "./assets/images/BS/BS-_imgNum_.jpg")
+	BS=new Animator(1,16, "./assets/Images/BS/BS-_imgNum_.jpg")
 	BS.setSize(width, height);
 	BS.setPosition(0,0);
 
-	BSDessin=new Animator(1,16, "./assets/images/BSDessin/BS-_imgNum_.jpg")
+	BSDessin=new Animator(1,16, "./assets/Images/BSDessin/BS-_imgNum_.jpg")
 	BSDessin.setSize(width, height);
 	BSDessin.setPosition(0,0);
 
-	TTVide=new Animator(1,6, "./assets/images/TTVide/TT-_imgNum_.jpg")
+	TTVide=new Animator(1,6, "./assets/Images/TTVide/TT-_imgNum_.jpg")
 	TTVide.setSize(width, height);
 	TTVide.setPosition(0,0);
 
-	TT=new Animator(1,6, "./assets/images/TT/TT-_imgNum_.jpg")
+	TT=new Animator(1,6, "./assets/Images/TT/TT-_imgNum_.jpg")
 	TT.setSize(width, height);
 	TT.setPosition(0,0);
 
-	PTD=new Animator(1,4, "./assets/images/PTD/PTD-_imgNum_.jpg")
+	PTD=new Animator(1,4, "./assets/Images/PTD/PTD-_imgNum_.jpg")
 	PTD.setSize(width, height);
 	PTD.setPosition(0,0);
 
-	PBCote=new Animator(1,12, "./assets/images/PBCote/PBCote-_imgNum_.jpg")
+	PBCote=new Animator(1,12, "./assets/Images/PBCote/PBCote-_imgNum_.jpg")
 	PBCote.setSize(width, height);
 	PBCote.setPosition(0,0);
 
-	PBC=new Animator(1,12, "./assets/images/PBC/PBCote-_imgNum_.jpg")
+	PBC=new Animator(1,12, "./assets/Images/PBC/PBCote-_imgNum_.jpg")
 	PBC.setSize(width, height);
 	PBC.setPosition(0,0);
 
-	PBCsombre=new Animator(1,13, "./assets/images/PBCsombre/PBCote-_imgNum_.jpg")
+	PBCsombre=new Animator(1,13, "./assets/Images/PBCsombre/PBCote-_imgNum_.jpg")
 	PBCsombre.setSize(width, height);
 	PBCsombre.setPosition(0,0);
 	
-	PP=new Animator(1,14, "./assets/images/PP/PP-_imgNum_.jpg")
+	PP=new Animator(1,14, "./assets/Images/PP/PP-_imgNum_.jpg")
 	PP.setSize(width, height);
 	PP.setPosition(0,0);
 
-	PTVide=new Animator(2,4, "./assets/images/PTVide/PTK-_imgNum_.jpg")
+	PTVide=new Animator(2,4, "./assets/Images/PTVide/PTK-_imgNum_.jpg")
 	PTVide.setSize(width, height);
 	PTVide.setPosition(0,0);
 
-	PTKVide=new Animator(2,4, "./assets/images/PTKVide/_PTK-_imgNum_.jpg")
+	PTKVide=new Animator(2,4, "./assets/Images/PTKVide/_PTK-_imgNum_.jpg")
 	PTKVide.setSize(width, height);
 	PTKVide.setPosition(0,0);
 
-	PTK=new Animator(2,4, "./assets/images/PTK/PTK-_imgNum_.jpg")
+	PTK=new Animator(2,4, "./assets/Images/PTK/PTK-_imgNum_.jpg")
 	PTK.setSize(width, height);
 	PTK.setPosition(0,0);
 
-	BLVide=new Animator(1,8, "./assets/images/BLVide/BL-_imgNum_.jpg")
+	BLVide=new Animator(1,8, "./assets/Images/BLVide/BL-_imgNum_.jpg")
 	BLVide.setSize(width, height);
 	BLVide.setPosition(0,0);
 
-	PTfull=new Animator(2,4, "./assets/images/PTfull/PTK-_imgNum_.jpg")
+	PTfull=new Animator(2,4, "./assets/Images/PTfull/PTK-_imgNum_.jpg")
 	PTfull.setSize(width, height);
 	PTfull.setPosition(0,0);
 
-	BL=new Animator(1,8, "./assets/images/BL/BL-_imgNum_.jpg")
+	BL=new Animator(1,8, "./assets/Images/BL/BL-_imgNum_.jpg")
 	BL.setSize(width, height);
 	BL.setPosition(0,0);
 
-	BLvague=new Animator(1,8, "./assets/images/BLvague/BL-_imgNum_.jpg")
+	BLvague=new Animator(1,8, "./assets/Images/BLvague/BL-_imgNum_.jpg")
 	BLvague.setSize(width, height);
 	BLvague.setPosition(0,0);
 
-	PMVide=new Animator(1,15, "./assets/images/PMVide/PM-_imgNum_.jpg")
+	PMVide=new Animator(1,15, "./assets/Images/PMVide/PM-_imgNum_.jpg")
 	PMVide.setSize(width, height);
 	PMVide.setPosition(0,0);
 
-	PM=new Animator(1,15, "./assets/images/PM/PM-_imgNum_.jpg")
+	PM=new Animator(1,15, "./assets/Images/PM/PM-_imgNum_.jpg")
 	PM.setSize(width, height);
 	PM.setPosition(0,0);
 
-	PBFace=new Animator(1,12, "./assets/images/PBFace/PBFace-_imgNum_.jpg")
+	PBFace=new Animator(1,12, "./assets/Images/PBFace/PBFace-_imgNum_.jpg")
 	PBFace.setSize(width, height);
 	PBFace.setPosition(0,0);
 
-	PT=new Animator(1,4, "./assets/images/PT/PT-_imgNum_.jpg")
+	PT=new Animator(1,4, "./assets/Images/PT/PT-_imgNum_.jpg")
 	PT.setSize(width, height);
 	PT.setPosition(0,0);
 
-	BVide=new Animator(1,12, "./assets/images/BVide/B-_imgNum_.jpg")
+	BVide=new Animator(1,12, "./assets/Images/BVide/B-_imgNum_.jpg")
 	BVide.setSize(width, height);
 
-	B=new Animator(1,12, "./assets/images/B/B-_imgNum_.jpg")
+	B=new Animator(1,12, "./assets/Images/B/B-_imgNum_.jpg")
 	B.setSize(width, height);
 	B.setPosition(0,0);
 
-	PBFaceOh=new Animator(1,12, "./assets/images/PBFaceOh/PBFaceOh-_imgNum_.jpg")
+	PBFaceOh=new Animator(1,12, "./assets/Images/PBFaceOh/PBFaceOh-_imgNum_.jpg")
 	PBFaceOh.setSize(width, height);
 	PBFaceOh.setPosition(0,0);
 
-	Feel=new Animator(1,12, "./assets/images/Feel/PBFaceOh-_imgNum_.jpg")
+	Feel=new Animator(1,12, "./assets/Images/Feel/PBFaceOh-_imgNum_.jpg")
 	Feel.setSize(width, height);
 	Feel.setPosition(0,0);
 
-	Live=new Animator(1,12, "./assets/images/Live/PBFaceOh-_imgNum_.jpg")
+	Live=new Animator(1,12, "./assets/Images/Live/PBFaceOh-_imgNum_.jpg")
 	Live.setSize(width, height);
 	Live.setPosition(0,0);
 
-	Fin=new Animator(1,13, "./assets/images/Fin/PTK-_imgNum_.jpg")
+	Fin=new Animator(1,13, "./assets/Images/Fin/PTK-_imgNum_.jpg")
 	Fin.setSize(width, height);
 	Fin.setPosition(0,0);
 
