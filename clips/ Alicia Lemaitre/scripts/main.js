@@ -68,15 +68,15 @@ function setup(){
 	PTD.setSize(width, height);
 	PTD.setPosition(0,0);
 
-	PBCote=new Animator(1,12, "./assets/Images/PBCote/PBCote-_imgNum_.jpg")
+	PBCote=new Animator(1,12, "./assets/Images/PBCote/PBcote-_imgNum_.jpg")
 	PBCote.setSize(width, height);
 	PBCote.setPosition(0,0);
 
-	PBC=new Animator(1,12, "./assets/Images/PBC/PBCote-_imgNum_.jpg")
+	PBC=new Animator(1,12, "./assets/Images/PBC/PBcote-_imgNum_.jpg")
 	PBC.setSize(width, height);
 	PBC.setPosition(0,0);
 
-	PBCsombre=new Animator(1,13, "./assets/Images/PBCsombre/PBCote-_imgNum_.jpg")
+	PBCsombre=new Animator(1,13, "./assets/Images/PBCsombre/PBcote-_imgNum_.jpg")
 	PBCsombre.setSize(width, height);
 	PBCsombre.setPosition(0,0);
 	
@@ -88,7 +88,7 @@ function setup(){
 	PTVide.setSize(width, height);
 	PTVide.setPosition(0,0);
 
-	PTKVide=new Animator(2,4, "./assets/Images/PTKVide/_PTK-_imgNum_.jpg")
+	PTKVide=new Animator(2,4, "./assets/Images/PTKVide/PTK-_imgNum_.jpg")
 	PTKVide.setSize(width, height);
 	PTKVide.setPosition(0,0);
 
